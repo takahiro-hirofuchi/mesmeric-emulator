@@ -1,4 +1,4 @@
-# MESMERIC: A Software-based NVM Emulator Supporting Read/Write Asymmetric Latencies
+# About
 
 MESMERIC is a software-based NVM emulation mechanism that is not only
 light-weight but also aware of a read/write latency gap in NVM-based main
@@ -30,3 +30,5 @@ Feel free to contact us.
 # Contact
 
 - Takahiro Hirofuchi (AIST)
+
+Copyright (c) 2020 National Institute of Advanced Industrial Science and Technology (AIST), Japan
