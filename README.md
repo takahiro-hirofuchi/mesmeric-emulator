@@ -31,7 +31,7 @@ For details, please refer to the below paper.
 
 # Availability
 
-The binary package of MESMERIC is available at [Download]().
+The binary package of MESMERIC is available at [Download]() soon.
 It is released under the below license.
 ```
 Copyright (c) 2020 National Institute of Advanced Industrial Science and Technology (AIST)
@@ -56,7 +56,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-At this moment, MESMERIC is available for those who collaborate on research projects with us. 
+At this moment, the source code of MESMERIC is available for those who collaborate on research projects with us. 
 It is also available under an agreement with AIST. Feel free to contact us.
 
 
