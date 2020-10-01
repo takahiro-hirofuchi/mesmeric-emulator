@@ -31,8 +31,7 @@ For details, please refer to the below paper.
 
 # Availability
 
-The binary package of MESMERIC is available at [Download]() soon.
-It is released under the below license.
+It is released under the below license. It is the MIT License. See [the GitHub repository](https://takahiro-hirofuchi.github.io/mesmeric-emulator/).
 ```
 Copyright (c) 2020 National Institute of Advanced Industrial Science and Technology (AIST)
 
@@ -56,10 +55,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-At this moment, the source code of MESMERIC is available for those who collaborate on research projects with us. 
-It is also available under an agreement with AIST. Feel free to contact us.
-
-
 
 # Usage
 
@@ -68,8 +63,9 @@ It is also available under an agreement with AIST. Feel free to contact us.
 - Linux machine with Intel Xeon CPU
   - Intel Xeon will be necessary. Other lines of processors such as Intel Core
     may lack a necessary performance monitoring unit.
-  - It is well-tested with processors of the Haswell and Broadwell
-    architecture. It should work with processors of other architectures.
+  - It is well-tested with processors of the Intel Broadwell
+    architecture. It should work with processors of other architectures (e.g., Haswell and Skylake).
+    If your processor is not supported, please add its information in ```src/types.c```.
   - It uses the userland API (i.e., sysfs and system calls) of the Linux kernel.
     It is tested with Linux 5.4.0-rc2. It should work with other Linux versions
     as long as the API is compatible.
@@ -79,6 +75,11 @@ It is also available under an agreement with AIST. Feel free to contact us.
 - The DRAM latency and the LLC hit latency of the host machine need to be
   measured in advance, for example by using Intel MLC.
 
+## Build
+
+```
+make
+```
 
 ## Command Line
 
@@ -134,7 +135,7 @@ multi-threaded applications and hybrid memory emulation.
 - If creating multiple threads/processes, a target application program needs to
   be slightly extended to inform the emulator of thread information.
 - To emulate a hybrid memory system, a target application program needs to be
-  slightly extended to inform the emulator of memory allocation.
+  slightly extended to inform the emulator of memory allocation. The PEBS support of Intel processors is necessary. 
 - More documentation will come up soon.
 
 
