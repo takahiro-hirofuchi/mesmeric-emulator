@@ -31,7 +31,7 @@ For details, please refer to the below paper.
 
 # Availability
 
-It is released under the below license. It is the MIT License. See [the GitHub repository](https://takahiro-hirofuchi.github.io/mesmeric-emulator/).
+It is released under the below license. It is the MIT License. See [the GitHub repository](https://github.com/takahiro-hirofuchi/mesmeric-emulator).
 ```
 Copyright (c) 2020 National Institute of Advanced Industrial Science and Technology (AIST)
 
